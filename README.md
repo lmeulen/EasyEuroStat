@@ -9,6 +9,8 @@ from easy_eurostat importget_eurostat_dataset
 df = get_eurostat_dataset("teilm020")
 df
 ```
+![dataframe](https://github.com/lmeulen/EasyEuroStat/blob/main/dataframe.png?raw=true)
+
 
 Creating a chloropeth map
 
@@ -24,3 +26,5 @@ ax.set_xlim(2000000, 7000000)
 ax.set_ylim(1000000, 6000000)
 ax.set_title('Unemployment in the European Union')
 ```
+
+![map](https://github.com/lmeulen/EasyEuroStat/blob/main/map.png?raw=true)
